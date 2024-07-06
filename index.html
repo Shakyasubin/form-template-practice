@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Client Details</h1>
+      <p>Enter the details of all incoming clients.</p>
+    </div>
+
+    <form action="">
+      <div class="form">
+        <div class="clientinfo">
+          <label class="clienttag" for="clientname"
+            >Client Name <span>*</span></label
+          >
+          <label class="clienttag" for="companyname"
+            >Company <span>*</span></label
+          >
+          <label for="title">Title</label>
+          <label for="department">Department <span>*</span></label>
+          <label for="contact">Preferred contact method <span>*</span></label>
+          <label for="email">Email</label>
+          <label for="phone">Phone</label>
+          <label for="companyaddress">Company address <span>*</span></label>
+          <div class="clientinfo1">
+            <label for="companywebsite">Company website <span>*</span></label>
+          </div>
+          <label for="companyloge">Company Logo</label>
+          <div class="clientinfo2">
+            <label for="workinghours">Working Hours <span>*</span></label>
+          </div>
+          <label for="workingdays">Working Days <span>*</span></label>
+          <label for="billingcycle">Billing Cycle <span>*</span></label>
+          <label for="additionalinfo">Additional Information</label>
+        </div>
+        <div class="clientdata">
+          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Enter your company name" />
+          <input type="text" placeholder="Enter your job title" />
+          <select name="" id="">
+            <option value="0">-Select-</option>
+            <option value="1">IT</option>
+            <option value="2">Accounting</option>
+            <option value="3">Management</option>
+            <option value="4">Banking</option>
+          </select>
+          <div class="radio">
+            <input name="contact" type="radio" checked /> Email
+            <input name="contact" type="radio" /> Phone
+          </div>
+          <input type="email" placeholder="someone@email.com" />
+          <input type="number" placeholder="Enter your phone no." />
+          <div class="cadddata">
+            <input type="text" placeholder="Street Address" />
+            <input type="text" placeholder="Address Line 2" />
+          </div>
+          <div class="cadddata1">
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="State/Region/Province" />
+          </div>
+          <div class="cadddata2">
+            <input type="text" placeholder="Postal/Zip Code" />
+            <input type="text" placeholder="Country" />
+          </div>
+          <input type="url" placeholder="Company's Website" />
+          <div class="clientlogo"><input type="file" /></div>
+          <input type="number" placeholder="No. of working hours" />
+          <input type="number" placeholder="No. of working days" />
+          <div class="clientdata3">
+            <input type="number" placeholder="No of billing cycle" />
+          </div>
+          <textarea name="addinfo" id=""></textarea>
+          <div class="submit"><input type="submit" value="Submit" /></div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

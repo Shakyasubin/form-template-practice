@@ -1,0 +1,165 @@
+body {
+  background-color: #2ac78f;
+  margin: 2% 5% 2.5% 5%;
+  font-family: Tahoma;
+}
+
+span {
+  color: red;
+}
+.header {
+  background-color: #2f404e;
+  color: #ffffff;
+  height: 90px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.header > h1 {
+  margin: 0;
+  padding: 1% 0 0 0;
+  font-size: 40px;
+}
+
+.header > p {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-shadow: 1px 1px 40px 0.5px rgb(73, 72, 72);
+}
+
+.clientinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  width: 30%;
+  padding: 0;
+}
+
+.clientdata {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  width: 70%;
+  border: 0;
+  padding: 0 50px 0 0;
+}
+
+.clientinfo > label {
+  padding: 40px 0 0 40px;
+}
+
+.clientdata > input {
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 50px 0px 0 0;
+}
+
+.clientdata > select {
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 30px 0 0 0;
+}
+
+.clientdata > .radio {
+  padding: 30px 0 0 0;
+}
+
+.clientdata > .cadddata > input {
+  display: flex;
+  border: 0;
+  border-top: 1px solid;
+  margin: 60px 0px 0 0;
+  width: 100%;
+}
+
+.clientdata > .cadddata1 {
+  display: flex;
+  border: 0;
+}
+
+.clientdata > .cadddata1 > input {
+  border: 0;
+  border-top: 1px solid;
+  width: 50%;
+  margin: 50px 5px 0 0;
+}
+
+.clientdata > .cadddata2 {
+  display: flex;
+  border: 0;
+}
+
+.clientdata > .cadddata2 > input {
+  border: 0;
+  border-top: 1px solid;
+  width: 50%;
+  margin: 50px 5px 0 0;
+}
+
+.clientdata > .clientlogo {
+  margin: 44px 0 0 0;
+  padding: 27px 0 31px 0;
+  border: 1px solid;
+  border-style: dotted;
+}
+
+.clientinfo2 {
+  display: flex;
+  width: 100%;
+}
+
+.clientinfo2 > label {
+  padding: 110px 0 0 40px;
+}
+
+.clientinfo > .clientinfo1 {
+  display: flex;
+  width: 100%;
+}
+.clientinfo > .clientinfo1 > label {
+  padding: 297px 0 0 40px;
+}
+
+.clientdata3 {
+  display: flex;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.clientdata3 > input {
+  border: 0;
+  border-bottom: 1px solid;
+  width: 50%;
+}
+
+.clientdata > textarea {
+  height: 150px;
+  border: 0;
+  border-bottom: 1px solid;
+}
+
+.submit {
+  display: flex;
+  width: 100%;
+}
+
+.submit > input {
+  border: 0;
+  background-color: #21a376;
+  color: #fff;
+  font-size: 20px;
+  margin: 50px 0 40px 300px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+}
